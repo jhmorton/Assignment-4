@@ -1,0 +1,103 @@
+html {
+	background-color:black;
+}
+
+h1 {
+	color:white;
+	font-variant: small-caps;
+	font-size:75px;
+	line-height:150px;
+}
+
+h2 {
+	color:white;
+	font-variant:small-caps;
+	font-size:60px;
+	text-align:center;
+}
+
+h3 {
+	color:white;
+	font-variant:small-caps;
+	font-size:40px;
+	text-align:center;
+}
+
+ul {
+	list-style:none;
+	padding:0;
+	text-align:center;
+	font-size:30px;
+	line-height:80px;
+	font-variant:small-caps;
+}
+
+p {
+	color:white;
+	font-size:25px;
+	font-style:italic;
+}
+
+.bannerCat {
+	width:100%;
+	height:250px;
+	border:solid white 5px;
+	text-align:center;
+	vertical-align:center;
+	background-image: url("../images/cat-ban.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.myButton {
+	padding:8px 10px;
+	border: 1px solid red;
+	color:white;
+	text-align:center;
+	background-color: red;
+	display:inline-block;
+	border-radius: 5px;
+	min-width:100px;
+	line-height:40px;
+}
+
+.myButton:hover {
+	margin: 2px 0 0 2px;
+}
+
+.columnOne {
+	width:25%;
+	min-height:1000px;
+	float:left;
+	border: solid white 1px;
+	display:block;
+}
+
+.columnTwo {
+	width:72%;
+	min-height:1000px;
+	float:left;
+	border:solid white 2px;
+	display:block;
+}
+
+.thumbnail {
+	width:200px;
+	height:200px;
+	float:left;
+	border:2px solid white;
+	margin: 15px;
+
+}
+
+.clearboth {
+	clear:both;
+}
+
+.article {
+	padding:10px;
+}
+
+.columnText {
+	padding:10px;
+}
