@@ -49,6 +49,39 @@ p {
 	background-repeat:no-repeat;
 }
 
+.bannerSightseeing {
+	width:100%;
+	height:250px;
+	border:solid white 5px;
+	text-align:center;
+	vertical-align:center;
+	background-image: url("../images/sightseeing-ban.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.bannerIndex {
+	width:100%;
+	height:250px;
+	border:solid white 5px;
+	text-align:center;
+	vertical-align:center;
+	background-image: url("../images/index-ban.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.bannerRiot{
+	width:100%;
+	height:250px;
+	border:solid white 5px;
+	text-align:center;
+	vertical-align:center;
+	background-image: url("../images/riot-ban.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
 .myButton {
 	padding:8px 10px;
 	border: 1px solid red;
@@ -81,6 +114,15 @@ p {
 	display:block;
 }
 
+.columnTwoIndex {
+	width:72%;
+	min-height:1000px;
+	float:left;
+	border:solid white 2px;
+	display:block;
+	text-align:center;
+}
+
 .thumbnail {
 	width:200px;
 	height:200px;
@@ -88,6 +130,13 @@ p {
 	border:2px solid white;
 	margin: 15px;
 
+}
+
+.indexThumb {
+	width:400px;
+	height:200px;
+	border:2px solid white;
+	margin: 15px;
 }
 
 .clearboth {
